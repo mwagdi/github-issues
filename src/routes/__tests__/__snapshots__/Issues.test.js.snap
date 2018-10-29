@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Issues renders correctly 1`] = `
+<div
+  className="issues__body"
+>
+  <h3>
+    Issues
+  </h3>
+</div>
+`;

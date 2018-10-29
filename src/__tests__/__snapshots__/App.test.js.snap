@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<BrowserRouter>
+  <div
+    className="app flex-container flex-column"
+  >
+    <Topbar />
+    <div
+      className="issues flex-grow"
+    >
+      <IssuesHeader />
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/"
+        />
+      </Switch>
+    </div>
+    <_default />
+  </div>
+</BrowserRouter>
+`;

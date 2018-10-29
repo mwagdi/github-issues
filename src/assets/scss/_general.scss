@@ -1,0 +1,49 @@
+html,body{
+    font-size: 16px;
+    margin: 0;
+    height: 100%;;
+}
+#root{
+    height: 100%;
+}
+.app{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+    font-family: $font;
+}
+.flex-container{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.row{
+    max-width: 68rem;
+    margin: auto;
+}
+.dark{
+    color: $dark;
+}
+.dark-background{
+    background: $dark;
+}
+.blue{
+    color: $blue;
+}
+.bold{
+    font-weight: bold;
+}
