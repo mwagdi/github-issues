@@ -10,6 +10,6 @@ const store = configureMockStore([
     thunk,
 ])();
 test('Issues renders correctly',() => {
-    const wrapper = shallow(<Issues store={store}/>);
+    const wrapper = shallow(<Issues store={store}/>).dive();
     expect(toJSON(wrapper)).toMatchSnapshot();
 })
