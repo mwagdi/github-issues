@@ -1,0 +1,43 @@
+.issues{
+    &__header{
+        background: $offwhite;
+        padding-top: 1.25em;
+        margin-bottom: 1.25em;
+        border-bottom: 1px solid $bordercolor;
+        &_link{
+            font-size: 1.125rem;
+            display: block;
+            margin: 0 0.3em;
+        }
+    }
+    &__navbar{
+        &_link{
+            color: $darkgrey;
+            font-size: 0.875rem;
+            padding: 0.5em 1em;
+            position: relative;
+            &:hover{
+                color: $dark;
+            }
+            &--active{
+                background: white;
+                color: $dark;
+                border: 1px solid $bordercolor;
+                border-top: 3px solid $orange;
+                border-bottom: none;
+                &:after{
+                    content: '';
+                    background: white;
+                    height: 1px;
+                    bottom: -1px;
+                    left: 0;
+                    right: 0;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    &__heading{
+        margin-bottom: 1.25em;
+    }
+}

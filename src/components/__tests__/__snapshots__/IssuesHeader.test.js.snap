@@ -8,11 +8,11 @@ exports[`IssuesHeader renders correctly 1`] = `
     className="row"
   >
     <div
-      className="flex-container"
+      className="issues__heading flex-container align-center"
     >
       <svg
         aria-hidden="true"
-        class="octicon octicon-repo"
+        className="octicon octicon-repo"
         fill="#959da5"
         height="16"
         version="1.1"
@@ -25,7 +25,7 @@ exports[`IssuesHeader renders correctly 1`] = `
         />
       </svg>
       <span
-        className="blue"
+        className="issues__header_link blue"
       >
         facebook
       </span>
@@ -33,10 +33,44 @@ exports[`IssuesHeader renders correctly 1`] = `
         /
       </span>
       <span
-        className="blue bold"
+        className="issues__header_link blue bold"
       >
         react
       </span>
+    </div>
+    <div
+      className="issues__navbar flex-container"
+    >
+      <a
+        className="issues__navbar_link"
+      >
+        Code
+      </a>
+      <a
+        className="issues__navbar_link issues__navbar_link--active"
+      >
+        Issues
+      </a>
+      <a
+        className="issues__navbar_link"
+      >
+        Pull requests
+      </a>
+      <a
+        className="issues__navbar_link"
+      >
+        Projects
+      </a>
+      <a
+        className="issues__navbar_link"
+      >
+        Wiki
+      </a>
+      <a
+        className="issues__navbar_link"
+      >
+        Insights
+      </a>
     </div>
   </div>
 </div>

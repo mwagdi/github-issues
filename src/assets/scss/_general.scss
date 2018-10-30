@@ -13,6 +13,9 @@ html,body{
     box-sizing: border-box;
     font-family: $font;
 }
+a{
+    cursor: pointer;
+}
 .flex-container{
     display: flex;
 }
@@ -32,7 +35,7 @@ html,body{
     align-items: center;
 }
 .row{
-    max-width: 68rem;
+    max-width: 62rem;
     margin: auto;
 }
 .dark{
