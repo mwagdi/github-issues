@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleIssue renders correctly 1`] = `
+<div
+  className="singleIssue"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="singleIssue__header"
+    >
+      <h1
+        className="singleIssue__title"
+      />
+      <h2
+        className="singleIssue__number"
+      >
+        #
+      </h2>
+    </div>
+    <div
+      className="flex-container"
+    >
+      <div
+        className="comments-container flex-grow"
+      />
+    </div>
+  </div>
+</div>
+`;

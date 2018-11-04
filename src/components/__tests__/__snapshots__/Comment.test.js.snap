@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment renders correctly 1`] = `
+<div
+  className="comment flex-container justify-space-between"
+>
+  <div
+    className="comment__avatar"
+    style={
+      Object {
+        "backgroundImage": "url(url)",
+      }
+    }
+  />
+  <div
+    className="comment__body"
+  >
+    <div
+      className="comment__header"
+    >
+      <span
+        className="comment__login bold"
+      />
+       commented on 
+      undefined day, NaN
+    </div>
+    <div
+      className="comment__content"
+    />
+  </div>
+</div>
+`;
