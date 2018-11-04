@@ -1,0 +1,52 @@
+.issues-table{
+    &__item{
+        padding: 0.5em 1em;
+        border: 1px solid $bordercolor;
+        border-top: none;
+        &:hover{
+            background: $tablebackground;
+        }
+        &_name{
+            svg{
+                margin-right: 0.5em;
+                &.open{
+                    fill: #28a745;
+                }
+                &.closed{
+                    fill: #cb2431;
+                }
+            }
+        }
+    }
+    &__link{
+        font-weight: bold;
+        color: $dark;
+        &:hover{
+            color: $blue;
+        }
+    }
+}
+.opened{
+    font-size: 0.75rem;
+    color: $darkgrey;
+    margin-top: 0.45em;
+}
+.comments-icon{
+    fill: $darkgrey;
+}
+.comments-number{
+    color: $darkgrey;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+a{
+    &:hover{
+       .comments-icon {
+           fill: $blue;
+       }
+       .comments-number {
+           color: $blue;
+       }
+    }
+}

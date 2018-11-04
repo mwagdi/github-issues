@@ -5,14 +5,45 @@ exports[`Footer renders correctly 1`] = `
   className="footer"
 >
   <div
-    className="row"
+    className="row footer__row"
   >
     <div
-      className="flex-container align-center"
+      className="flex-container align-center justify-space-between"
     >
       <div
-        className="flex-container align-center"
-      />
+        className="flex-container align-center justify-space-between flex-small-column"
+      >
+        <span
+          className="copyright"
+        >
+          © 2018 GitHub, Inc.
+        </span>
+        <a
+          className="footer__link footer__link--left"
+        >
+          Terms
+        </a>
+        <a
+          className="footer__link footer__link--left"
+        >
+          Privacy
+        </a>
+        <a
+          className="footer__link footer__link--left"
+        >
+          Security
+        </a>
+        <a
+          className="footer__link footer__link--left"
+        >
+          Status
+        </a>
+        <a
+          className="footer__link footer__link--left"
+        >
+          Help
+        </a>
+      </div>
       <svg
         aria-hidden="true"
         className="octicon octicon-mark-github"
@@ -27,8 +58,39 @@ exports[`Footer renders correctly 1`] = `
         />
       </svg>
       <div
-        className="flex-container align-center"
-      />
+        className="flex-container align-center justify-space-between flex-small-column"
+      >
+        <a
+          className="footer__link footer__link--right"
+        >
+          Contact GitHub
+        </a>
+        <a
+          className="footer__link footer__link--right"
+        >
+          Pricing
+        </a>
+        <a
+          className="footer__link footer__link--right"
+        >
+          API
+        </a>
+        <a
+          className="footer__link footer__link--right"
+        >
+          Training
+        </a>
+        <a
+          className="footer__link footer__link--right"
+        >
+          Blog
+        </a>
+        <a
+          className="footer__link footer__link--right"
+        >
+          About
+        </a>
+      </div>
     </div>
   </div>
 </div>

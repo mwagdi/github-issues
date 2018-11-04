@@ -5,6 +5,7 @@ import {
 
 import Topbar from './components/Topbar';
 import Issues from './routes/Issues';
+import SingleIssue from './routes/SingleIssue';
 import IssuesHeader from './components/IssuesHeader';
 import Footer from './components/Footer';
 import './assets/scss/app.scss';
@@ -16,6 +17,7 @@ const App = props => (
             <div className="issues flex-grow">
                 <IssuesHeader />
                 <Switch>
+                    <Route path="/:number" component={SingleIssue} />
                     <Route path="/" component={Issues} />
                 </Switch>
             </div>

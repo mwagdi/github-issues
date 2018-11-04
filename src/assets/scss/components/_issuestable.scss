@@ -1,0 +1,12 @@
+.issues-table{
+    &__header{
+        background: $tablebackground;
+        border: 1px solid $bordercolor;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        padding: 0.8125em 1em;
+    }
+}
+.get-issues{
+    margin-right: 1em;
+}

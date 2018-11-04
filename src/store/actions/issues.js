@@ -10,9 +10,9 @@ export const issuesLoaded = issues => {
     }
 }
 
-export const getIssues = (page=1) => {
+export const getIssues = (page=1,state="open") => {
     return dispatch => {
-        axios.get(`${API}?page=${page}`)
+        axios.get(`${API}?page=${page}&state=${state}`)
         .then(response => dispatch(issuesLoaded(response.data)))
         .catch(error => {
             throw(error);

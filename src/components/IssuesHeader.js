@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const IssuesHeader = props => (
     <div className="issues__header offwhite">
@@ -12,23 +13,24 @@ const IssuesHeader = props => (
                 <span className="issues__header_link blue bold">react</span>
             </div>
             <div className="issues__navbar flex-container">
-                <a className="issues__navbar_link">
+                <a className="issues__navbar_link text-center">
                     Code
                 </a>
-                <a
-                className="issues__navbar_link issues__navbar_link--active">
+                <Link
+                to="/"
+                className="issues__navbar_link issues__navbar_link--active text-center">
                     Issues
-                </a>
-                <a className="issues__navbar_link">
+                </Link>
+                <a className="issues__navbar_link text-center">
                     Pull requests
                 </a>
-                <a className="issues__navbar_link">
+                <a className="issues__navbar_link text-center">
                     Projects
                 </a>
-                <a className="issues__navbar_link">
+                <a className="issues__navbar_link text-center">
                     Wiki
                 </a>
-                <a className="issues__navbar_link">
+                <a className="issues__navbar_link text-center">
                     Insights
                 </a>
             </div>

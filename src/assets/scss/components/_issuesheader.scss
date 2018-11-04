@@ -16,6 +16,13 @@
             font-size: 0.875rem;
             padding: 0.5em 1em;
             position: relative;
+            @media (max-width: $small){
+                flex: 1;
+                font-size: 0.575rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
             &:hover{
                 color: $dark;
             }

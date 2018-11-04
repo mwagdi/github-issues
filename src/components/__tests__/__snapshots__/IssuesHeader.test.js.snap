@@ -42,32 +42,34 @@ exports[`IssuesHeader renders correctly 1`] = `
       className="issues__navbar flex-container"
     >
       <a
-        className="issues__navbar_link"
+        className="issues__navbar_link text-center"
       >
         Code
       </a>
-      <a
-        className="issues__navbar_link issues__navbar_link--active"
+      <Link
+        className="issues__navbar_link issues__navbar_link--active text-center"
+        replace={false}
+        to="/"
       >
         Issues
-      </a>
+      </Link>
       <a
-        className="issues__navbar_link"
+        className="issues__navbar_link text-center"
       >
         Pull requests
       </a>
       <a
-        className="issues__navbar_link"
+        className="issues__navbar_link text-center"
       >
         Projects
       </a>
       <a
-        className="issues__navbar_link"
+        className="issues__navbar_link text-center"
       >
         Wiki
       </a>
       <a
-        className="issues__navbar_link"
+        className="issues__navbar_link text-center"
       >
         Insights
       </a>

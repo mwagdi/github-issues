@@ -1,0 +1,33 @@
+.singleIssue{
+    &__header{
+        border-bottom: 1px solid $bordercolor;
+    }
+    &__title{
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 0;
+        @media (max-width: $small){
+            font-size: 1.5rem;
+        }
+    }
+    &__number{
+        font-size: 2rem;
+        font-weight: 400;
+        color: #a3aab1;
+        margin-top: 0;
+        @media (max-width: $small){
+            font-size: 1.5rem;
+        }
+    }
+}
+.comments-container{
+    max-width: 47rem;
+    padding: 1em 0;
+    @media (max-width: $medium) {
+        max-width: 37rem;
+    }
+
+    @media (max-width: $small) {
+        max-width: 22rem;
+    }
+}

@@ -1,1 +1,2 @@
 export const ISSUES_LOADED = "ISSUES_LOADED";
+export const COMMENTS_LOADED = "COMMENTS_LOADED";

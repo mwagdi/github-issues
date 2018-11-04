@@ -9,10 +9,11 @@ class Issues extends Component{
         this.props.getIssues();
     }
     render(){
+        const { issues } = this.props;
         return(
             <div className="issues__body">
                 <div className="row">
-                    <IssuesTable />
+                    <IssuesTable issues={issues} />
                 </div>
             </div>
         )

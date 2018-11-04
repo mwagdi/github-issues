@@ -7,7 +7,7 @@ exports[`Issues renders correctly 1`] = `
   <div
     className="row"
   >
-    <IssuesTable />
+    <Connect(IssuesTable) />
   </div>
 </div>
 `;

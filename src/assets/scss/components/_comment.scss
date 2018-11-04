@@ -1,0 +1,36 @@
+.comment{
+    margin-bottom: 1.5em;
+    &__avatar{
+        width: 44px;
+        height: 44px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 3px;
+        @media (max-width: $small){
+            width: 25px;
+            height: 25px;
+        }
+    }
+    &__header{
+        background: $tablebackground;
+        color: $darkgrey;
+        font-size: 0.875rem;
+        padding: 1em;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border: 1px solid $bordercolor;
+    }
+    &__content{
+        font-size: 0.875rem;
+        padding: 2em 1em;
+        border: 1px solid $bordercolor;
+        border-top: none;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__body{
+        width: 87.5%;
+    }
+}

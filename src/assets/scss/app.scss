@@ -1,4 +1,10 @@
 @import 'variables';
 @import 'general';
+@import 'routes/issues';
+@import 'routes/singleissue';
 @import 'components/topbar';
 @import 'components/issuesheader';
+@import 'components/issuestable';
+@import 'components/issuestableitem';
+@import 'components/footer';
+@import 'components/comment';

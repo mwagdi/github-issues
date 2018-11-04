@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IssuesTable renders correctly 1`] = `
+<div
+  className="issues-table flex-container flex-column"
+>
+  <div
+    className="issues-table__header"
+  >
+    <div
+      className="flex-container"
+    >
+      <a
+        className="get-issues open-get bold"
+        onClick={[Function]}
+      >
+        Open
+      </a>
+      <a
+        className="get-issues closed-get bold"
+        onClick={[Function]}
+      >
+        Closed
+      </a>
+    </div>
+  </div>
+  <div
+    className="issues-table__body"
+  />
+</div>
+`;
